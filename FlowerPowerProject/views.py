@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from models import Burger, Ingredient, BurgerIngredients
-import sys
+
+from FlowerPowerProject.models import Burger, Ingredient, BurgerIngredients
 
 
 def index(request):
